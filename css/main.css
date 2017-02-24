@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+}
+.cuerpo{
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+header h1{
+	font-size: 30px;
+	color: #80b4d3;
+	margin: 0px;
+	margin: 5px;
+	font-family: Pacifico;
+}
+header h1:hover{
+	color: white;
+}
+header .cabecera{
+	background-color: #026aa7;
+}
+.cabecera button {
+	margin: 5px;
+	color: white;
+	background-color: #4d97c1;
+	display: inline-block;
+}
+input{
+ 	background-color: #4d97c1;
+ 	border-style: none;
+ 	padding: 7px;
+ 	width: 170px;
+}
+#inputSearch{
+	color: white;
+}
+#inputTarjeta{
+	background-color: #d7d9db;
+	color: black;
+	border-color: #999999;
+	margin-bottom: 10px;
+}
+span {
+	color: white;
+}
+button .btn .btn-primary{
+	margin-right: 20px;
+}
+
+.btn-responsive{
+	white-space: normal !important;
+	word-wrap: break-word;
+}
+
+.listaTablero .elemenTablero{
+	list-style: none;
+	display: inline-block;
+}
+.listaTablero{
+	padding-top: 50px;
+}
+.elemenTablero{
+	background-color: #0067a3;
+	margin: 20px;
+	padding: 50px 120px 50px 120px ;
+}
+.elemenTablero p{
+	color: white;
+}
+.mitablero h4{
+	color: white;
+}
+.listaTarjetas  {
+	margin-top: 30px;
+}
+.formTarjetas{
+	list-style: none;
+	display: inline-block;
+	background-color: #e2e4e6;
+	padding: 5px 20px 5px 20px;
+	margin: 10px;
+	color: #9c9c9d;
+	width: 280px;
+	vertical-align: top;
+}
+.nombreLista{
+	color: #747475;
+	font-weight: bold;
+}
+.formTarjetas #inputText{
+	width: 100%;
+}
+#listadeTarjetas{
+	margin: 0px;
+	padding: 0px;
+}
+#listadeTarjetas li{
+	list-style: none;
+	background-color: white;
+	margin: 6px;
+	padding: 8px;
+	border-radius: 3px;
+}
+.none{
+	display: none;
+}
+.listaDeTableros{
+	background-color: white;
+	border-radius: 8px;
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+}
+.listaDeTableros input{
+	background-color: white;
+	width: 100%;
+}
+.listaDeTableros button {
+	margin: 5px;
+	color: white;
+	background-color: #5eb449;
+}
